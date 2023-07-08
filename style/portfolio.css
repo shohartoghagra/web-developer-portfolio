@@ -54,7 +54,7 @@ nav a{
 /* header start here */
 .header{
     background-color: #fff8f4;
-    background-image: url(../images/header_bg.png);
+    background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -65,7 +65,7 @@ nav a{
     justify-content: space-between;
 }
 
-.banner-containt{
+.banner-container{
 
     max-width: 500px;
 }
@@ -110,7 +110,7 @@ main section{
 }
 
 /* what id do and skilled related start here*/
-#what -i do-description{
+#what-i do-description{
 
     padding:30px 150px;
 }
