@@ -74,7 +74,7 @@ nav a{
 }
 
 .banner.profile-picture{
-width: 500px;
+max-width: 500px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -111,6 +111,7 @@ main section{
 .about-info{
     text-align: center;
 }
+
 
 /* what id do and skilled related start here*/
 #what-i do-description{
@@ -171,6 +172,7 @@ color: #757575;
 }
 
 /* footer style section start here */
+
 footer{
     display: flex;
     background: #fff8f3;
@@ -179,7 +181,7 @@ footer{
     gap: 100px;
 }
 .footer-column{
-  width: 50%;  
+  max-width: 50%;  
 }
 
 .social-links a{
@@ -199,3 +201,34 @@ footer{
     border: 0;
     width: 100%;
 }
+
+
+
+
+/* Small Device responsive style */
+
+@media screen and (min-width: 576px) and (max-width:776px){
+.banner-container{
+width: 100%;
+padding: auto;
+}
+
+ .footer,.skills-container,.banner,.resume-container{
+    flex-direction: column;
+    padding: 10px;
+ }
+
+.about-info-container{
+    flex-direction: column;
+
+}
+.about{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+nav{
+    flex-direction: column;
+}
+} 
+    
